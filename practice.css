@@ -1,0 +1,81 @@
+/* Casecading */
+/* 
+Author style 
+User style 
+Browser 
+ */
+
+/* !import 웬만하면 안쓰기. */
+
+/* selector
+* Universal 
+Tag type
+#id ID
+.class Class
+: State
+[] Attribute
+*/
+*{ color : green;
+
+}
+
+
+li {
+    color: blue;
+}
+
+
+/* li의 id가 special 인 속성만 변경하고싶을때 */
+li#special{
+    color:pink;
+}
+
+
+/*  */
+.red{
+    width: 100px;
+    height: 100px;
+    /* padding: 20px; */
+    padding: 2rem 10px 20px 30px; 
+    /* padding-right:200px; */
+
+
+    border: 4px dashed blue;
+    /* border: 2px; */
+    /* border-style: solid; */
+    /* border-color: red; */
+    margin: 10px;
+    background: yellowgreen ;
+}
+button:hover{
+    color:red;
+    background: beige ;
+}
+
+a[href] {
+    color:purple;
+}
+
+/* google로 시작하는 속성만 변경하고 싶을때 */
+a[href^="google"] {
+    color: orange;
+}
+
+/* .com로 끝나는 속성값만 변경하고싶을때 */
+a[href$=".net"] { 
+    color:hotpink;
+}
+
+p {
+    color:black;
+}
+
+#fs1{
+    font-size: 2.5rem;
+}
+#fs2{
+    font-size: 2.5em;
+}
+#fs3{
+    font-size: 2.5px;
+}
